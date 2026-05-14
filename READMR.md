@@ -1,70 +1,45 @@
-# Human Activity Recognition Using SVM
+git clone https://github.com/your-username/HAR-Intelligence-Platform.git
+cd HAR-Intelligence-Platform# 💠 HAR Intelligence Platform Pro
 
-Final Project – Data Computation Spring 2026  
-Alexandria National University  
-Computers and Data Science
+Advanced Human Activity Recognition (HAR) system built with **Streamlit**, **Machine Learning**, and **Interactive Data Visualization**.
 
----
-
-# Project Overview
-
-This project applies Support Vector Machine (SVM) techniques to classify human activities using smartphone sensor data.
-
-The dataset contains accelerometer and gyroscope measurements collected from participants performing daily activities such as walking, sitting, and standing.
-
-The project includes:
-- Exploratory Data Analysis (EDA)
-- Data Cleaning
-- Feature Scaling
-- Dimensionality Reduction using PCA
-- SVM Model Development
-- Hyperparameter Tuning
-- Model Evaluation
-- Streamlit Deployment (Bonus)
+This platform classifies human activities using smartphone sensor data and an SVM-based machine learning model.
 
 ---
 
-# Dataset Information
+# 🚀 Features
 
-Dataset: Human Activity Recognition (HAR)
-
-## Dataset Characteristics
-- Total Records: 10,299
-- Total Features: 561 sensor features
-- Classes: 6 human activities
-
-## Activities
-- WALKING
-- WALKING_UPSTAIRS
-- WALKING_DOWNSTAIRS
-- SITTING
-- STANDING
-- LAYING
+- 🎯 Human Activity Recognition using SVM
+- 📂 CSV Upload Support
+- 📊 Interactive Plotly Visualizations
+- ⚡ Real-Time Predictions
+- 🌌 Futuristic UI Design
+- 🧠 Batch & Single Prediction Modes
+- 📈 Sensor Signal Analysis Dashboard
 
 ---
 
-# Technologies Used
+# 🧠 Supported Activities
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Streamlit
-- Joblib
+| ID | Activity |
+|----|-----------|
+| 1 | WALKING |
+| 2 | WALKING_UPSTAIRS |
+| 3 | WALKING_DOWNSTAIRS |
+| 4 | SITTING |
+| 5 | STANDING |
+| 6 | LAYING |
 
 ---
 
-# Project Structure
+# 📁 Project Structure
 
-```text
-project/
+```bash
+HAR-Intelligence-Platform/
 │
-├── train.csv
-├── test.csv
-├── notebook.ipynb
 ├── app.py
 ├── svm_har_model.pkl
+├── test.csv
 ├── requirements.txt
-└── README.md
+├── README.md
+└── assets/
