@@ -1,5 +1,4 @@
-git clone https://github.com/your-username/HAR-Intelligence-Platform.git
-cd HAR-Intelligence-Platform# 💠 HAR Intelligence Platform Pro
+# 💠 HAR Intelligence Platform Pro
 
 Advanced Human Activity Recognition (HAR) system built with **Streamlit**, **Machine Learning**, and **Interactive Data Visualization**.
 
